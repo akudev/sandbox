@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+	<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+	<title>test</title>
+	
+	<script id='sap-ui-bootstrap' type='text/javascript'
+			src='https://openui5.hana.ondemand.com/resources/sap-ui-core.js'
+			data-sap-ui-theme='sap_goldreflection'
+			data-sap-ui-libs='sap.ui.commons,sap.ui.ux3'></script>
+	<!-- add 'sap.ui.table' and/or other libraries if required -->
+	
+	<script>
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.webkit: ' + sap.ui.Device.browser.webkit}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.chrome: ' + sap.ui.Device.browser.chrome}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.safari: ' + sap.ui.Device.browser.safari}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.internet_explorer: ' + sap.ui.Device.browser.internet_explorer}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.firefox: ' + sap.ui.Device.browser.firefox}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.android: ' + sap.ui.Device.browser.android}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.name: ' + sap.ui.Device.browser.name}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.mobile: ' + sap.ui.Device.browser.mobile}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.version: ' + sap.ui.Device.browser.version}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.browser.versionStr: ' + sap.ui.Device.browser.versionStr}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.os.name: ' + sap.ui.Device.os.name}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.os.version: ' + sap.ui.Device.os.version}).placeAt('content');
+		new sap.ui.commons.TextView({text:'sap.ui.Device.os.versionStr: ' + sap.ui.Device.os.versionStr}).placeAt('content');
+		
+	</script>
+	
+	<style>
+		.sapUiTv {
+			display: block !important;
+			font-size: 24px !important;
+			line-height: 28px !important;
+		}
+	</style>
+	</head>
+	<body class='sapUiBody'>
+		<div id='content'></div>
+	</body>
+</html>
