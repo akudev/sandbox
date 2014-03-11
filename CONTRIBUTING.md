@@ -21,6 +21,8 @@ We cannot accept pull requests yet, so in case you find a fix and want to propos
 If you find a bug - behavior of UI5 code contradicting its specification - you are welcome to report it.
 We can only handle well-reported, actual bugs, so please follow the guidelines below and use forums like [StackOverflow](http://stackoverflow.com/questions/tagged/sapui5) for support questions or when in doubt whether the issue is an actual bug. 
 
+Once you have familiarized with the guidelines, you can go to the [Github issue tracker for OpenUI5](https://github.com/SAP/openui5/issues/new) to report the issue.
+
 ### Quick Checklist for Bug Reports
 
  * Issue report checklist:
